@@ -42,7 +42,7 @@ Here is the table schema and the definition of each features
 
 1. `Balance` has a lot of 0s. This indicates that we need some sort of tranformation to train a model.
 
-![fig.1](/images/balance_distribution.png)
+![fig.1](images/balance_distribution.png)
 
 ***Fig 1.) Distribution of Bank Account Balance Amount of the Customers***
 
@@ -51,7 +51,7 @@ Here is the table schema and the definition of each features
 <br>
 
 2. We see that the `Geography` column has 50% of *France*. We should be aware of this when creating training set and testing set so that we can avoid the sampling error. We might have to adapt a strategy like stratified sampling.
-![fig.2](/images/overall_geography_ratio.png)
+![fig.2](images/overall_geography_ratio.png)
 
 ***Fig 2.) Overall Ratio of Customers' Nationalities***
 
@@ -62,11 +62,11 @@ Here is the table schema and the definition of each features
 3. Unlike the total sample shows 50.8% and 45.9%, and those who did not exited showing 46.2% and 53.3% for `NumOfProducts = 1` and `NumOfProducts = 2`, respectively, those who exited has the percentage of 69.1% and 17.1% for `NumOfProducts = 1` and `NumOfProducts = 2`, respectively. From the data, we can conclude that there is a higher probability of customers exiting, when they've only purchased one product through the bank.
 
 
-![fig.3](/images/overall_products_num_ratio.png)
+![fig.3](images/overall_products_num_ratio.png)
 
 ***Fig.3) Number of Products Ratio over All Data Points***
 
-![fig.4](/images/exited_products_num_ratio.png)
+![fig.4](images/exited_products_num_ratio.png)
 
 ***Fig.4) Number of Products Ratio over Those Who Exited***
 
@@ -76,15 +76,15 @@ Here is the table schema and the definition of each features
 
 4. When looking at the ratio of the nationality of the customers regardless of them exited or not, majority of our customers are from France. However, when we dive into those who exited, about 40 percent of the customers are from Germany. Likewise, about 40% of the customers are from France and rest of the customers are from Spain. This indicates that the nationality is not a negligible factor when analyzing the churn of the customers.
 
-![fig.5](/images/overall_geography_ratio.png)
+![fig.5](images/overall_geography_ratio.png)
 
 ***Fig 5.) Overall Ratio of Customers' Nationality***
 
-![fig.6](/images/not_exited_geography_ratio.png)
+![fig.6](images/not_exited_geography_ratio.png)
 
 ***Fig 6.) Ratio of Customers' Nationality for Those Who Did Not Exit***
 
-![fig.7](/images/exited_geography_ratio.png)
+![fig.7](images/exited_geography_ratio.png)
 
 ***Fig 6.) Ratio of Customers' Nationality for Those Who Exited***
 
