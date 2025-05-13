@@ -135,3 +135,9 @@ ui-tests/playwright-report
 .pnp.*
 ui-tests/.yarn/*
 ui-tests/.pnp.*
+
+# Virtual Environments
+venv/
+
+# Data Files
+data/
